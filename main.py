@@ -1401,17 +1401,13 @@ def reset_and_set_commands():
     # Set new
     commands = [
     {"command": "start", "description": "✅ ᴄʜᴇᴄᴋ ɪꜰ ᴛʜᴇ ʙᴏᴛ ɪꜱ ᴀʟɪᴠᴇ"},
+    {"command": "free", "description": "🆓 use bot free of cost"},
+    {"command": "proxy", "description": "upload proxy for indian server"}    
     {"command": "drm", "description": "📄 ᴜᴘʟᴏᴀᴅ ᴀ .ᴛxᴛ ꜰɪʟᴇ"},
     {"command": "stop", "description": "⏹ ᴛᴇʀᴍɪɴᴀᴛᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴘʀᴏᴄᴇꜱꜱ"},
-    {"command": "reset", "description": "♻️ ʀᴇꜱᴇᴛ ᴛʜᴇ ʙᴏᴛ"},
     {"command": "cookies", "description": "🍪 ᴜᴘʟᴏᴀᴅ ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴏᴋɪᴇꜱ"},
-    {"command": "t2h", "description": "📑 → 🌐 HTML converter"},
     {"command": "t2t", "description": "📝 ᴛᴇxᴛ → .ᴛxᴛ ɢᴇɴᴇʀᴀᴛᴏʀ"},
     {"command": "id", "description": "🆔 ɢᴇᴛ ʏᴏᴜʀ ᴜꜱᴇʀ ɪᴅ"},
-    {"command": "add", "description": "▶️ Add Auth "},
-    {"command": "info", "description": "ℹ️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ"},
-    {"command": "remove", "description": "⏸️ Remove Auth "},
-    {"command": "users", "description": "👨‍👨‍👧‍👦 All Users"},
 ]
 
     requests.post(url, json={"commands": commands})
