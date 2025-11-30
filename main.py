@@ -1402,7 +1402,7 @@ def reset_and_set_commands():
     commands = [
     {"command": "start", "description": "✅ ᴄʜᴇᴄᴋ ɪꜰ ᴛʜᴇ ʙᴏᴛ ɪꜱ ᴀʟɪᴠᴇ"},
     {"command": "free", "description": "🆓 use bot free of cost"},
-    {"command": "proxy", "description": "upload proxy for indian server"}    
+    {"command": "proxy", "description": "upload proxy for indian server"},    
     {"command": "drm", "description": "📄 ᴜᴘʟᴏᴀᴅ ᴀ .ᴛxᴛ ꜰɪʟᴇ"},
     {"command": "stop", "description": "⏹ ᴛᴇʀᴍɪɴᴀᴛᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴘʀᴏᴄᴇꜱꜱ"},
     {"command": "cookies", "description": "🍪 ᴜᴘʟᴏᴀᴅ ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴏᴋɪᴇꜱ"},
