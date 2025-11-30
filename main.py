@@ -234,11 +234,11 @@ photozip = 'https://envs.sh/yvS.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="t.me/strange_contact_robot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="t.me/bandbudh_aur_budbak_megarobot")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="t.me/strange_contact_robot")        ],
+            InlineKeyboardButton(text="🛠️ Help", url="t.me/bandbudh_aur_budbak_megarobot")        ],
     ]
 )
 
@@ -372,10 +372,10 @@ async def start(bot: Client, m: Message):
             if not is_authorized:
                 await m.reply_photo(
                     photo=photologo,
-                    caption="**Mʏ Nᴀᴍᴇ [『ʍɛɢǟ ʀօɮօȶ 』](t.me/strange_contact_robot)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [『SŦɌȺNǤɆ』](t.me/strange_contact_robot) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
+                    caption="**Mʏ Nᴀᴍᴇ [『ʍɛɢǟ ʀօɮօȶ 』](t.me/bandbudh_aur_budbak_megarobot)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [『ʍɛɢǟ ʀօɮօȶ 』](t.me/strange_contact_robot) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
                     reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("『SŦɌȺNǤɆ』", url="t.me/strange_contact_robot")
+        InlineKeyboardButton("『ʍɛɢǟ ʀօɮօȶ 』", url="t.me/bandbudh_aur_budbak_megarobot")
     ],
 ])
                 )
@@ -398,7 +398,7 @@ async def start(bot: Client, m: Message):
                 caption=f"**Mʏ ᴄᴏᴍᴍᴀɴᴅꜱ ғᴏʀ ʏᴏᴜ [{m.from_user.first_name} ](tg://settings)**\n\n{commands_list}",
                 reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("『SŦɌȺNǤɆ』", url="t.me/strange_contact_robot")
+        InlineKeyboardButton("『ʍɛɢǟ ʀօɮօȶ 』", url="t.me/bandbudh_aur_budbak_megarobot")
     ],
   ])
 )
@@ -447,11 +447,11 @@ auth_filter = filters.create(auth_check_filter)
 @bot.on_message(~auth_filter & filters.private & filters.command)
 async def unauthorized_handler(client, message: Message):
     await message.reply(
-        "<b>Mʏ Nᴀᴍᴇ [『SŦɌȺNǤɆ』](t.me/strange_contact_robot)</b>\n\n"
+        "<b>Mʏ Nᴀᴍᴇ [『ʍɛɢǟ ʀօɮօȶ 』](t.me/strange_contact_robot)</b>\n\n"
         "<blockquote>You need to have an active subscription to use this bot.\n"
         "Please contact admin to get premium access.</blockquote>",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("💫 Get Premium Access", url="t.me/strange_contact_robot")
+            InlineKeyboardButton("💫 Get Premium Access", url="t.me/bandbudh_aur_budbak_megarobot")
          ]])
     )
 
